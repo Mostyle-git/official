@@ -1,0 +1,294 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #444;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+
+body
+{
+		font-family: 'Nunito', sans-serif;
+		margin:0; padding:0;
+		box-sizing: border-box;
+		outline: none; border:none;
+		text-decoration: none;
+		text-transform: capitalize;
+		transition: .2s linear;
+	}
+	
+	html{
+		font-size: 62.5%;
+		overflow-x: hidden;
+		scroll-padding-top: 7rem;
+		scroll-behavior: smooth;
+	}
+	
+	html::-webkit-scrollbar{
+		width:1rem;
+	}
+	
+	html::-webkit-scrollbar-track{
+		background: #444;
+	}
+	
+	html::-webkit-scrollbar-thumb{
+		background: var(--main-color);
+		border-radius: 5rem;
+	}
+	
+	body{
+		background-image: url(ruvim-noga-o0R4iqk1eRQ-unsplash.jpg);
+		height: 100%;
+		background-position: center;
+		background-size: cover;
+	}
+	
+	section{
+		padding:2rem 9%;
+	}
+	
+	.heading{
+		text-align: center;
+		padding-bottom: 2rem;
+		color:#fff;
+		text-transform: uppercase;
+		font-size: 4rem;
+	}
+	
+	.heading span{
+		color:var(--main-color);
+		text-transform: uppercase;
+	}
+	
+	.btn{
+		margin-top: 1rem;
+		display: inline-block;
+		padding:.8rem 3rem;
+		font-size: 1.7rem;
+		border-radius: .5rem;
+		background: #666;
+		color:#fff;
+		cursor: pointer;
+		font-weight: 600;
+	}
+	
+	.btn:hover{
+		background:var(--main-color);
+	}
+	
+	.header{
+		position: fixed;
+		top:0; left: 0; right: 0;
+		z-index: 10000;
+		background: #333;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding:1.5rem 9%;
+	}
+	
+	.header .logo{
+		font-weight: bolder;
+		color:#fff;
+		font-size: 2.5rem;
+	}
+	
+	.header .logo span{
+		color:var(--main-color);
+	}
+	
+	.header .navbar a{
+		font-size: 1.7rem;
+		color:#fff;
+		margin-left: 2rem;
+	}
+	
+	.header .navbar a:hover{
+		color:var(--main-color);
+	}
+	
+	#menu-bars{
+		font-size: 3rem;
+		color:#fff;
+		cursor: pointer;
+		display: none;
+	}
+
+
+section{
+    padding:2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    background: #666;
+    color:#fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background:var(--main-color);
+}
+
+.header{
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 10000;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 9%;
+}
+
+.header .logo{
+    font-weight: bolder;
+    color:#fff;
+    font-size: 2.5rem;
+}
+
+.header .logo span{
+    color:var(--main-color);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color:#fff;
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color:var(--main-color);
+}
+
+#menu-bars{
+    font-size: 3rem;
+    color:#fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.signup-box{
+	margin-top: 80px;
+	margin-left: 550px;
+	width: 440px;
+	height: 530px;
+	background-color: white;
+	border-radius: 3px;
+}
+
+.login-box{
+	margin-top: 100px;
+	margin-left: 550px;
+	width: 450px;
+	height: 350px;
+	border-radius: 3px;
+	border-radius: 3px;
+	background-color: white;
+}
+
+h1{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 30px;
+
+}
+h4{
+	text-align: center;
+}
+form{
+	width: 300px;
+	margin-left: 70px;
+}
+form label{
+	display: flex;
+	margin-top: 20px;
+	font-size: 18px;
+}
+form input{
+	width: 100%;
+	padding: 8px;
+	border: none;
+	border: 1px solid grey;
+	border-radius: 6px;
+	outline: none;
+}
+input[type="button"]{
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #49c1a2;
+	color: white;
+	font-size:18px;
+}
+p{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+.para2{
+	text-align:center;
+	color: white;
+	font-size: 15px;
+	margin-top: -10px;
+}
+.para2 a{
+	color: #49c1a2;
+
+}
+
+.sub{
+	background-color: #04AA6D;
+    border-radius: 20px;
+  	border: none;
+  	color: rgb(255, 255, 255);
+  	padding: 8px 32px;
+ 	text-decoration: none;
+  	cursor: pointer;
+}
+
