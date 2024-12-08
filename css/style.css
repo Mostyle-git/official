@@ -154,8 +154,8 @@ section{
 }
 
 .service .box-container .box i{
-    height: 48rem;
-    width: 36rem;
+    height: 6rem;
+    width: 6rem;
     line-height: 6rem;
     border-radius: 50%;
     font-size: 2.5rem;
@@ -221,8 +221,8 @@ section{
     position: relative;
     border:1rem solid #333;
     border-radius: .5rem;
-    height: 24rem;
-    width: 18rem;
+    height: 96rem;
+    width: 72rem;
     cursor: pointer;
     overflow: hidden;
 }
