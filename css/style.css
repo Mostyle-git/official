@@ -221,8 +221,8 @@ section{
     position: relative;
     border:1rem solid #333;
     border-radius: .5rem;
-    height: 48rem;
-    width: 36rem;
+    height: 36rem;
+    width: 27rem;
     cursor: pointer;
     overflow: hidden;
 }
