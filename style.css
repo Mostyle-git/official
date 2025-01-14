@@ -456,7 +456,7 @@ section{
 
 .theme-toggler{
     position: fixed;
-    top:10rem; right:-20rem;
+    top:10rem; right:0rem;
     background: #333;
     z-index: 1000;
     width: 20rem;
